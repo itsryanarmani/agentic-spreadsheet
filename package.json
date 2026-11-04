@@ -79,31 +79,31 @@
   },
   "dependencies": {
     "@formulajs/formulajs": "^4.6.1",
-    "@modelcontextprotocol/sdk": "^1.12.0",
-    "agentic-design": ">=0.8.0 <1.0.0",
-    "agentic-formats": ">=0.4.2 <1.0.0",
-    "agentic-identity": ">=0.9.0 <1.0.0",
-    "agentic-realtime": ">=0.4.3 <1.0.0",
-    "hono": "^4.13.14",
-    "yjs": "^13.6.0",
-    "zod": "^4.6.6"
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "agentic-design": "^0.10.1",
+    "agentic-formats": "^0.4.4",
+    "agentic-identity": "^0.12.1",
+    "agentic-realtime": "^0.6.1",
+    "hono": "^4.13.16",
+    "yjs": "^13.6.33",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "^1.64.1",
-    "@types/node": "^22.0.0",
+    "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^5.2.0",
-    "esbuild": "^0.27.7",
-    "jsdom": "^26.1.0",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.1.3",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "tsup": "^8.0.0",
-    "typescript": "^5.6.0",
+    "tsup": "^9.0.0",
+    "typescript": "^5.9.3",
     "vite": "^7.3.7",
-    "vitest": "^3.0.0",
-    "wrangler": "^4.155.0"
+    "vitest": "^3.2.7",
+    "wrangler": "^4.157.0"
   },
   "peerDependencies": {
     "react": "^19.0.0",
@@ -119,7 +119,7 @@
   },
   "overrides": {
     "agentic-formats": {
-      "zod": "^4.6.6"
+      "zod": "^4.6.7"
     }
   }
 }
